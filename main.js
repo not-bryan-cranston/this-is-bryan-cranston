@@ -7,11 +7,11 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 var LeafIcon = L.Icon.extend({
   options: {
-    shadowUrl: 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png',
+    //shadowUrl: 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png',
     iconSize: [38, 95],
-    shadowSize: [50, 64],
+    //shadowSize: [50, 64],
     iconAnchor: [22, 94],
-    shadowAnchor: [4, 62],
+    //shadowAnchor: [4, 62],
     popupAnchor: [-3, -76]
   }
 });
